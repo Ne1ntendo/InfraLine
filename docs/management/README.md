@@ -1,0 +1,1 @@
+Project plan; weekly status reports in /docs/management/weekly
