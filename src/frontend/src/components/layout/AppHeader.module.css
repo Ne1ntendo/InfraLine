@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 60px;
+  padding: 0 28px;
+  border-bottom: 1px solid #9a9a9a;
+  background: var(--color-bg);
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.right {
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navLink {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navLinkActive {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.bell {
+  position: relative;
+  display: inline-flex;
+  padding: 6px;
+  border: 0;
+  background: none;
+}
+
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  min-width: 20px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: var(--color-dark);
+  color: var(--color-on-dark);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.logout {
+  padding: 0;
+  border: 0;
+  background: none;
+  text-decoration: underline;
+}

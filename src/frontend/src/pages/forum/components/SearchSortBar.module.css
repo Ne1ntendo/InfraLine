@@ -1,0 +1,31 @@
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search,
+.sort {
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #a6a6a6;
+  border-radius: var(--radius);
+  background: var(--color-panel);
+}
+
+.search {
+  flex: 1;
+}
+
+.search::placeholder {
+  color: var(--color-muted);
+}
+
+.sortLabel {
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+.sort {
+  width: 160px;
+}

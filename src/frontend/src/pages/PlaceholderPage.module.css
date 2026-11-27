@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 48px;
+  border: 1px dashed #9a9a9a;
+}
+
+.page h1 {
+  font-size: 26px;
+}
+
+.page p {
+  color: var(--color-muted);
+}

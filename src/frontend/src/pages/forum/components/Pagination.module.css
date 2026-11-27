@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.button {
+  min-width: 40px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid #9a9a9a;
+  background: var(--color-bg);
+}
+
+.button:hover:not(:disabled) {
+  border-color: var(--color-dark);
+}
+
+.button:disabled {
+  color: #8a8a8a;
+  cursor: default;
+}
+
+.current,
+.current:hover:not(:disabled) {
+  border-color: var(--color-dark);
+  background: var(--color-dark);
+  color: var(--color-on-dark);
+}
